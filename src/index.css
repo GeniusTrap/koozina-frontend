@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+* {
+    font-family: 'Spartan', sans-serif;
+}
+
+
+@keyframes marquee {
+  0% { 
+    transform: translateX(100%);
+  }
+  100% { 
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 10s linear infinite;
+}
