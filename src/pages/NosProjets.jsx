@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { assets } from '../assets/assets'
 import axios from 'axios'
+import { backendUrl } from '../App'
 
 const NosProjets = () => {
   const [currentPage, setCurrentPage] = useState(1)
@@ -14,7 +15,7 @@ const NosProjets = () => {
     try {
       setLoading(true)
       setError('')
-      const response = await axios.get('http://localhost:4000/api/realisations', {
+      const response = await axios.get(`${backendUrl}/api/realisations`, {
         params: {
           page: currentPage,
           limit: projectsPerPage
