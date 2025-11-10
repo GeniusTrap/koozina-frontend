@@ -12,6 +12,7 @@ const Navbar = () => {
         
         <div className="flex items-center md:ml-12 lg:ml-40">
           <img src={assets.Logo} alt="Logo" className="h-8 sm:h-10" />
+          <img src={assets.flag} alt="Tunisie" className="w-5 h-5 sm:w-5 sm:h-5 object-contain ml-4" />
         </div>
 
         <ul className="hidden md:flex gap-6 lg:gap-8 text-gray-800 font-medium md:mr-8 lg:mr-30 items-center">
@@ -71,7 +72,6 @@ const Navbar = () => {
 
       <div className="bg-[#EADFC8] py-1 sm:py-2 text-sm sm:text-base text-gray-700 font-medium flex items-center justify-center md:justify-start gap-2 md:ml-16 lg:ml-100">
         <span> Qualité Quartz Marbre </span>
-        <img src={assets.flag} alt="Tunisie" className="w-3 h-3 sm:w-4 sm:h-4 object-contain" />
       </div>
 
       <div
