@@ -130,6 +130,36 @@ const Catalog = () => {
               </div>
             ))}
           </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {couleursQuartz.slice(20, 24).map((couleur, index) => (
+              <div key={index} className="text-center">
+                <div className="h-72 bg-gray-200 rounded-lg overflow-hidden mb-4 shadow-md hover:shadow-lg transition-shadow duration-300">
+                  <img 
+                    src={couleur.image} 
+                    alt={couleur.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <p className="font-semibold text-gray-800 text-lg">{couleur.name}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {couleursQuartz.slice(24, 27).map((couleur, index) => (
+              <div key={index} className="text-center">
+                <div className="h-72 bg-gray-200 rounded-lg overflow-hidden mb-4 shadow-md hover:shadow-lg transition-shadow duration-300">
+                  <img 
+                    src={couleur.image} 
+                    alt={couleur.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <p className="font-semibold text-gray-800 text-lg">{couleur.name}</p>
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* Call to Action */}
