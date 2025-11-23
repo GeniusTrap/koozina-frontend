@@ -36,6 +36,13 @@ import c17 from './c17.png'
 import c18 from './c18.png'
 import c19 from './c19.png'
 import c20 from './c20.png'
+import c21 from './c21.png'
+import c22 from './c22.png'
+import c23 from './c23.png'
+import c24 from './c24.png'
+import c25 from './c25.png'
+import c26 from './c26.png'
+import c27 from './c27.png'
 import scratch from './anti-scratch.png'
 import rayures from './anti-rayures.png'
 import chaleur from './chaleur.png'
@@ -81,6 +88,13 @@ export const assets = {
     c18,
     c19,
     c20,
+    c21,
+    c22,
+    c23,
+    c24,
+    c25,
+    c26,
+    c27,
     scratch,
     rayures,
     impérmeable,

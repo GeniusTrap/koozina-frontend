@@ -3,6 +3,15 @@ import { assets } from '../assets/assets'
 
 const Catalog = () => {
   const couleursQuartz = [
+    { name: "CALACATTA ALDEON", image: assets.c21 },
+    { name: "CALACATTA CLARA", image: assets.c22 },
+    { name: "PIANA", image: assets.c23 },
+    { name: "BOLERA", image: assets.c24 },
+
+    { name: "STATUARIO ORO", image: assets.c25 },
+    { name: "FELISIA", image: assets.c26 },
+    { name: "SANTA", image: assets.c27 },
+    
     { name: "MIA", image: assets.c1 },
     { name: "MILENA", image: assets.c2 },
     { name: "ALASKA", image: assets.c3 },
